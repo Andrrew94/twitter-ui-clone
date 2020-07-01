@@ -12,6 +12,7 @@ function App() {
         </p>
         <br />
         <strong> Turluianu Tedi</strong>
+        <strong> Andrei Inginer Sandica</strong>
         <a
           className="App-link"
           href="https://reactjs.org"
