@@ -7,20 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <br />
         <strong> Turluianu Tedi</strong>
-        <strong> Andrei Inginer Sandica</strong>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <strong> Andrei <strong style={{color: "green"}}>Inginer</strong> Sandica</strong>
       </header>
     </div>
   );
