@@ -1,8 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
 
 function App() {
+  axios.get('https://twitter-clone-be.herokuapp.com/tasks').then(res => {
+    console.log("response", res.data)
+  }).catch(err => {
+    console.log("error", err)
+  });
   return (
     <div className="App">
       <header className="App-header">
