@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 function App() {
-  axios.get('https://twitter-clone-be.herokuapp.com/tasks').then(res => {
+  axios.get('https://twitter-clone-be.herokuapp.com/post').then(res => {
     console.log("response", res.data)
   }).catch(err => {
     console.log("error", err)
@@ -16,7 +16,6 @@ function App() {
         <br />
         <strong> Turluianu Tedi</strong>
         <strong> Andrei <strong style={{color: "green"}}>Inginer</strong> Sandica</strong>
-          TEST 2
       </header>
     </div>
   );
